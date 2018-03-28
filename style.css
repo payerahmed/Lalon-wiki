@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-top {
+  width: 100%;
+  background-color: #eaecf0;
+}
+
+.nav-top .container {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.nav-top .container > * {
+  margin: 0 5px;
+}
+
+.nav-top .menu-toggle {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0 15px;
+}
+.nav-top .logo {
+  height: 18px;
+  margin-left: 5px;
+}
+.nav-top .search {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  min-width: 25vw;
+  background-color: #fff;
+  margin-left: 5%;
+}
+.nav-top .search .fa-search {
+  color: #555;
+}
+.nav-top .search input {
+  border: none;
+  padding: 5px;
+  flex-grow: 1;
+}
+.pastpara{
+  font-size: 1.1em;
+  font: inherit;
+}
+
+.lalon{
+  display: flex;
+  justify-content: space-between;
+}
+.lalon-right{
+  width: 350px;
+}
+@media(max-width:640px){
+  .pastpara{
+    width: 100%;
+  }
+  .lalon{
+    display: block;
+  }
+}
+.section-hadding{
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  position: relative;
+  border-bottom: 1px solid lightgrey
+}
+.section-hadding h2{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.section-hadding i{
+  font-size: 1.3em;
+}
+.section-hadding .pencil{
+  float: right;
+  position: absolute;
+  right: 0;
+}
+.tright{
+  float: right;
+  margin: 3%;
+}
+.trightpp{
+  text-align:justify;
+  margin-top: 2%;
+}
+.mf-section-1{
+  display: flex;
+  
+}
+.p2{
+  float:right;
+  
+}
+.imge{
+  display: flex;
+}
+.imge>img{
+  width: 181px;
+  height: 120px;
+  margin: 2px;
+}
+@media(max-width:640px){
+  .imge{
+    display: block;
+  }
+  .imge>img{
+    width: 100%;
+  }
+}
+.plist {
+  display: flex;
+}
+.plist .list1{
+  margin-right: 2%;
+}
+@media(max-width:640px){
+  .plist{
+    display: block;
+  }
+}
